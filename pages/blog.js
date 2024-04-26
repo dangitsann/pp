@@ -9,11 +9,11 @@ import Link from 'next/link'
 export default function blog() {
     return (
         <React.Fragment>
-            <div class="bg-image4"></div>
+            {/* <div class="bg-image4"></div>
             <main className={styles.main}>
                 <h2> blog </h2>
                 
-            </main>
+            </main> */}
         </React.Fragment>
     )
 }

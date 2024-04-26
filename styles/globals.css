@@ -1,4 +1,17 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Acme', sans-serif;
+}
+
+.custom-img  {
+  background-image: url('../public/DSC02382.jpg');
+}
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -9,7 +22,7 @@
   --background-start-rgb: 42, 61, 42;
   --background-end-rgb: 125, 148, 124;
 
-  --primary-glow: conic-gradient(
+  --primary-glow: conic-gradient(W
     from 180deg at 50% 50%,
     #16abff33 0deg,
     #0885ff33 55deg,
@@ -192,8 +205,8 @@ landingtext {
 }
 
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0); /* Fallback color 
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through 
   color: white;
   font-weight: light;
   font-size: 20px;
@@ -207,3 +220,5 @@ landingtext {
   padding: 20px;
   text-align: center;
 }
+
+*/
