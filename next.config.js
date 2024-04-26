@@ -4,4 +4,4 @@ const nextConfig = {
 
 }
 
-module.exports = commonjs
+module.exports = nextConfig
