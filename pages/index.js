@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Link from 'next/link';
+import Image from 'next/image';
 import Hero from '@/components/Hero';
+import Slider from '@/components/Slider';
+import { SliderData } from '@/components/SliderData';
 
 const inter = Inter({ subsets: ['latin'] }) // don't think I need this
 
@@ -21,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/peddlers-favicon.png" />
       </Head>
       <Hero heading= "Welcome to Peddler's Paradise" message="On a remote jungle island, a measly salesman constructed his paradise..."/>
-      
+      <Slider slides={SliderData} />
     </div>
     </>
   )
