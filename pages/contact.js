@@ -6,9 +6,9 @@ import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
 export default function contact() {
-    return (
-        // <main className={styles.main}>
-        //     <h2> contact </h2>
-        // </main>
-    )
+    // return (
+    //     // <main className={styles.main}>
+    //     //     <h2> contact </h2>
+    //     // </main>
+    // )
 }
