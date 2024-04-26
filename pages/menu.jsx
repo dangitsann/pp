@@ -4,7 +4,7 @@ import Hero from '@/components/Hero'
 const menu = () => {
   return (
     <div>
-        <Hero heading ='menu'/>
+        <Hero heading =''/>
     </div>
   )
 }
