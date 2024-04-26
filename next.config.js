@@ -3,7 +3,7 @@ const { getModuleBuildInfo } = require('next/dist/build/webpack/loaders/get-modu
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   //reactStrictMode: true,
-  output:'export',
+  output:'standalone',
 }
 
 module.exports = nextConfig
