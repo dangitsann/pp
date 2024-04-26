@@ -15,4 +15,5 @@ const Hero = ({heading, message}) => {
   )
 }
 
+
 export default Hero;

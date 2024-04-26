@@ -11,6 +11,10 @@ html {
   background-image: url('../public/DSC02382.jpg');
 }
 
+.custom-img2 {
+  background-image: url('../public/DSC05306.jpg');
+}
+
 /* :root {
   --max-width: 1100px;
   --border-radius: 12px;
