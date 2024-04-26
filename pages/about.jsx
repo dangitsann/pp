@@ -4,7 +4,7 @@ import Hero from '@/components/Hero'
 const about = () => {
     return (
         <div>
-            <Hero heading =''/>
+            <Hero heading ='about'/>
         </div>
       )
     }

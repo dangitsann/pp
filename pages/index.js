@@ -11,11 +11,6 @@ const inter = Inter({ subsets: ['latin'] }) // don't think I need this
 export default function Home() {
   return (
     <>
-    {/* <div className
-    <div class="bg-image1"></div>
-    <div class="bg-text">On a remote jungle island, a measly salesman constructed his paradise...</div>
-  
-    <main className={styles.main}> */}
     <div>
 
       <Head>
