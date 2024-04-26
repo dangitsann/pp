@@ -19,18 +19,12 @@ export default function Home() {
 
       
         <Head>
-          <title>Peddler's Paradise</title>
+          <title>Peddlers Paradise</title>
           <meta name="description" content="Home tiki bar and lounge" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/peddlers-favicon.png" />
         </Head>
         
- 
-         
-
-
-      
-      
       </main>
     </>
   )
